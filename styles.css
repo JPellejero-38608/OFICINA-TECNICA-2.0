@@ -1,0 +1,82 @@
+agrupar {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+    }	
+body{
+  background-color: rgb(80, 255, 173);
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .contenedor {
+        flex-direction: column;
+    }
+}
+.nav-container {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+       
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#fechaHora {
+    position: fixed;
+    top: 0;
+    right: 50px;
+    padding: 5px 10px;
+    background-color: rgba(15, 219, 185, 0.959);
+    border: 3px solid rgb(247, 6, 6);
+}
+.nav-buttons {
+    text-align: center;
+    margin-top: 20px; /* Ajusta según sea necesario */
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.nav-container a {
+    font-family: 'Roboto', sans-serif;
+}
+.nav-container a {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+.index {
+    background-image: url('Dollarphotoclub_85774162.jpg');
+    background-size: cover;
+
+} 
+     h1 {
+    font: bold 36px times, sans-serif;
+    }
+    h2 {
+        font: bold 35px times, sans-serif;color:red;
+         text-align: center;
+       }
+     h3 {
+        font: bold 45px times, sans-serif;color:rgba(80, 8, 68, 0.575);
+         text-align: center;
+       }
+    h4 {
+        font: bold 25px Comic Sans MS, sans-serif;color:red;
+         text-align: center;
+       }
+
+.informacion {
+    background-image: url('blue-matrix-background-vector.jpg');
+    background-size: cover;
+ 
+}
+.servicios {
+    background-image: url('PBX-virtual.webp');
+    background-size: cover;
+}
+

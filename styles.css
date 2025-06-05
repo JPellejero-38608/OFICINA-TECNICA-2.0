@@ -6,14 +6,13 @@ agrupar {
 body{
   background-color: rgb(80, 255, 173);
 }
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-    .contenedor {
-        flex-direction: column;
-    }
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
 }
+
 .nav-container {
     position: relative;
     display: inline-block;
@@ -69,6 +68,10 @@ body {
         font: bold 25px Comic Sans MS, sans-serif;color:red;
          text-align: center;
        }
+        h5 {
+        font: bold 20px times, sans-serif;color:rgba(189, 32, 163, 0.575);
+         text-align: center;
+       }
 
 .informacion {
     background-image: url('blue-matrix-background-vector.jpg');
@@ -80,3 +83,44 @@ body {
     background-size: cover;
 }
 
+a img {
+    border-radius: 25px;
+    transition: transform 0.2s ease-in-out;
+}
+
+a img:hover {
+    transform: scale(3.3);
+}
+img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px; /* Ajusta según lo que necesites */
+    margin-left: 18cm; /* Mueve la imagen 5 cm hacia la derecha */
+}
+form {
+    position: relative;
+    left: 11cm;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.social-nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.social-nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+.social-nav a:hover {
+  color: #ffd700; /* Cambia el color al pasar el ratón sobre los iconos */
+}
